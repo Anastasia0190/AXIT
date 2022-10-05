@@ -27,12 +27,13 @@
     display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
+    column-gap: 30px;
 }
 
 .awesome__item, .pricing__item, .review__item {
     display: flex;
     flex-direction: column;
-    column-gap: 30px;
+    flex-grow: 1;
 }
 
 /* Awesome section */
@@ -61,7 +62,6 @@
     background-color: #F5F5F5;
 }
 .pricing__item {
-   width: 370px;
    padding: 40px 0 50px 0;
 }
 
@@ -117,7 +117,6 @@
 
 .review__item {
     text-align: center;
-    width: 370px;
     padding: 40px 0 20px 0;
  }
  
@@ -130,13 +129,18 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     /* position: relative; */
  }
  
  .triangle {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 70px;
-    margin-top: -3px;
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+    position: relative;
+    left: 70px;
+
  }
  
  .review__item__customer {
@@ -159,7 +163,7 @@
  
  .review__item p.post {
      display: flex;
-     justify-content: space-around;
+     justify-content: flex-start;
      align-items: center;
-     margin-right: 92px;
+     margin-left: 100px;
  }
