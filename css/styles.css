@@ -7,7 +7,7 @@
 
 .heading__title {
     font: normal 400 36px Raleway ;
-    padding: 60px 0;
+    padding: 110px 0 60px 0;
     text-align: center;
 }
 
@@ -23,11 +23,26 @@
     text-align: center;
 }
 
+.heading__title_banner, .heading__quote_banner{
+    color: #FFFFFF;
+}
+
+.heading__line_banner {
+    border-top: 1px solid #FFFFFF;
+}
+
 .awesome__wrapper, .pricing__wrapper, .review__wrapper {
     display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
     column-gap: 30px;
+}
+
+.banner__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .awesome__item, .pricing__item, .review__item {
@@ -168,3 +183,26 @@
      align-items: center;
      margin-left: 100px;
  }
+
+ /* Banner section */
+
+.banner {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.png) no-repeat center center / cover;
+}   
+
+.download {
+    font: 600 18px Open Sans;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    width: 370px;
+    height: 60px;
+    margin: 37px 0 50px 0;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* Footer */
+
