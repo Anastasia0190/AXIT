@@ -27,11 +27,11 @@
     text-align: center;
 }
 
-.heading__title_banner, .heading__quote_banner{
+.heading__title_main, .heading__quote_main, .heading__title_banner, .heading__quote_banner {
     color: #FFFFFF;
 }
 
-.heading__line_banner {
+.heading__line_main, .heading__line_banner {
     border-top: 1px solid #FFFFFF;
 }
 
@@ -87,6 +87,47 @@
     align-items: center;
 }
 
+/* Main section */
+
+.main {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main.png) no-repeat center top / cover;
+    padding-bottom: 135px;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 207px 0 0 170px;
+}
+
+.heading__title_main {
+    font: 500 48px Raleway;
+    display: flex;
+    align-content: flex-start;
+    padding-right: 110px;
+}
+
+.heading__quote_main {
+    display: flex;
+    align-content: flex-start;
+}
+
+.download_main {
+    width: 270px;
+    height: 58px;
+    margin-top: 42px;
+}
+
+.main__form {
+    width: 470px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+}
+
 /* Awesome section */
 
 .awesome__item {
@@ -95,16 +136,16 @@
  }
  
  .title {
-     display: flex;
-     align-items: center;
-     font: 700 24px Open Sans;
-     margin: 60px 0 24px 0;
+    display: flex;
+    align-items: center;
+    font: 700 24px Open Sans;
+    margin: 60px 0 24px 0;
  }
  
  .awesome__item__desc {
-     display: flex;
-     justify-content: center;
-     text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
  }
 
  /* Price section */
@@ -196,28 +237,28 @@
  }
  
  .review__item__customer {
-     padding-top: 65px;
-     height: 90px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    padding-top: 65px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
  
  .review__item__customer p.name {
-     font: 700 24px Open Sans;
-     color:#000000;
-     padding: 20px 30px 35px 30px;
-     width: 270px;
-     display: flex;
-     align-items: center;
-     text-align: left;
+    font: 700 24px Open Sans;
+    color:#000000;
+    padding: 20px 30px 35px 30px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    text-align: left;
  }
  
  .review__item p.post {
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-     margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 100px;
  }
 
  /* Banner section */
