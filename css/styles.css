@@ -1,8 +1,12 @@
 .container {
     width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 0 15px;
     font: normal 400 18px Raleway;
+}
+
+.header, .footer {
+    background: #000000;
 }
 
 .heading__title {
@@ -49,6 +53,38 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+/* Header */
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.headerr__wrapper a {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.header__wrapper nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+   
+}
+
+.header__wrapper a {
+    font: 600 14px Open Sans;
+    color: #FFFFFF;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Awesome section */
@@ -206,3 +242,25 @@
 
  /* Footer */
 
+.footer__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 470px 28px 470px;
+    gap: 33px;
+    
+}
+
+.axure {
+    color: #FFFFFF80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 27px;
+ }
