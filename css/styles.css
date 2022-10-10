@@ -11,7 +11,7 @@
 
 .heading__title {
     font: normal 400 36px Raleway ;
-    padding: 110px 0 60px 0;
+    padding: 60px 0 60px 0;
     text-align: center;
 }
 
@@ -31,7 +31,12 @@
     color: #FFFFFF;
 }
 
-.heading__line_main, .heading__line_banner {
+.heading__line_main {
+    border-top: 1px solid #FFFFFF;
+    float: left;
+}
+
+.heading__line_banner {
     border-top: 1px solid #FFFFFF;
 }
 
@@ -46,7 +51,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .awesome__item, .pricing__item, .review__item {
@@ -61,14 +65,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
 }
 
 .headerr__wrapper a {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-   
 }
 
 .header__wrapper nav {
@@ -76,7 +78,6 @@
     justify-content: center;
     align-items: center;
     gap: 64px;
-   
 }
 
 .header__wrapper a {
@@ -96,21 +97,25 @@
 
 .main__wrapper {
     display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    padding: 207px 0 0 170px;
+    justify-content: space-between;
+    column-gap: 65px;
+    padding-top: 207px;
+}
+
+.main__info {
+    max-width: 640px;
+}
+
+.heading__quote_main {
+    line-height: 21px;
+    text-align: left;
+    max-width: 235px;
 }
 
 .heading__title_main {
     font: 500 48px Raleway;
-    display: flex;
-    align-content: flex-start;
-    padding-right: 110px;
-}
-
-.heading__quote_main {
-    display: flex;
-    align-content: flex-start;
+    line-height: 56px;
+    text-align: left;
 }
 
 .download_main {
@@ -124,8 +129,6 @@
     height: 450px;
     background: #FFFFFF;
     border-radius: 10px;
-    position: relative;
-    left: 50px;
 }
 
 /* Awesome section */
