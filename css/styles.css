@@ -10,7 +10,8 @@
 }
 
 .heading__title {
-    font: normal 400 36px Raleway ;
+    font: normal 400 36px Raleway;
+    line-height: 42px;
     padding: 60px 0 60px 0;
     text-align: center;
 }
@@ -22,6 +23,7 @@
 }
 
 .heading__quote {
+    line-height: 21px;
     color: #86878B;
     padding: 40px 0;
     text-align: center;
@@ -51,6 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .awesome__item, .pricing__item, .review__item {
@@ -318,6 +321,57 @@
     justify-content: center;
     align-items: center;
  }
+
+/* Contacts section */
+
+.contacts__form {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    column-gap: 30px;
+}
+
+.contacts__form__info input, .contacts__form__message textarea {
+    display: flex;
+    border: none;
+    resize: none;
+    font: 400 14px Open Sans;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin-bottom: 50px;
+    width: 570px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.contacts__form__info input {
+    height: 38px;
+}
+
+.contacts__form__message textarea {
+    height: 218px;
+    overflow: hidden;
+}
+
+.send_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.send {
+    font: 600 18px Open Sans;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 370px;
+    height: 58px;
+    border: none;
+    background: #EC7979;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
 
  /* Footer */
 
