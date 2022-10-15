@@ -13,13 +13,13 @@
         <section class="header">
             <div class="container">
                 <div class="header__wrapper">
-                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    <img src="img/logo.png" alt="logo">
                     <nav>
-                        <a href="#">Features</a>
-                        <a href="#">About</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Reviews</a>
-                        <a href="#">Contact</a>
+                        <a href="#features">Features</a>
+                        <a href="#about">About</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#reviews">Reviews</a>
+                        <a href="#contact">Contact</a>
                     </nav>
                 </div>
             </div>
@@ -36,7 +36,13 @@
                         </div>  
                         <button class="download download_main">Download</button>
                     </div>
-                    <form class="main__form" action="#"></form>
+                    <form class="main__form">
+                        <p class="main__form__title">Try Your <span>FREE</span> Trial Today</p>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="main-btn" placeholder="Get Started">Get Started</button>
+                    </form>
                 </div>
             </div>    
         </section>
@@ -59,7 +65,7 @@
                 </div>
             </div>
         </section>
-        <section class="awesome">
+        <section class="awesome" id="about">
             <div class="container">
                 <div class="heading">
                     <h2 class="heading__title">WHY THIS IS AWESOME</h2>
@@ -85,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <section class="pricing">
+        <section class="pricing" id="pricing">
             <div class="container">
                 <div class="heading">
                     <h2 class="heading__title">PRICING OPTIONS</h2>
@@ -135,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section class="review">
+        <section class="review" id="reviews">
             <div class="container">
                 <div class="heading">
                     <h2 class="heading__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
@@ -185,7 +191,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contact">
             <div class="container">
                 <div class="heading">
                     <h2 class="heading__title">CONTACT US</h2>
@@ -193,28 +199,24 @@
                     <p class="heading__quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
                 </div>
                 <form class="contacts__form">
-                    <fieldset>
-                        <div class="contacts__form__info">
+                    <div class="contacts__form__info">
+                        <div>
                             <input type="text" placeholder="Name">
                             <input type="email" placeholder="Email">
                             <input type="password" placeholder="Password">
                         </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="contacts__form__message">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
-                    </fieldset>
+                        <textarea placeholder="Message"></textarea>
+                    </div>   
+                    <div class="send_btn">
+                        <button class="send">Send Message</button>
+                    </div>    
                 </form>
-                <div class="send_btn">
-                    <button class="send">Send Message</button>
-                </div>
             </div>
         </section>
         <section class="footer">
             <div class="container">
                 <div class="footer__wrapper">
-                    <div class="icons">
+                    <div class="icons_footer">
                         <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
                         <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
                         <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
