@@ -157,9 +157,16 @@
 }
 
 .download_main {
+    font: 600 18px Open Sans;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 270px;
     height: 58px;
-    margin-top: 42px;
+    margin: 42px 0 185px 0;
 }
 
 .main__form {
@@ -211,7 +218,6 @@ input::placeholder, textarea::placeholder {
     bottom: 0;
     left: 0;
     right: 0;
-
 }
 
 /* Social section */
@@ -250,6 +256,127 @@ input::placeholder, textarea::placeholder {
 .icons_social a:hover {
     transform: scale(1.5);
     transition: all .3s ease;
+}
+
+/* Tabs section */
+
+.tabs {
+    margin: 100px 0 50px 0;
+    position: relative;
+}
+
+.tabs__item input[type='radio'] {
+    display: none;
+}
+
+.tabs__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    column-gap: 30px;
+    border: 1px solid #C6CBCD;
+    display: none;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+    display: block;
+}
+
+.tabs__item > label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    font: 400 14px Open Sans;
+    line-height: 19px;
+    padding: 10px 83px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+.tabs__item > label:not(:first-of-type) {
+
+}
+
+.tabs__item > input[type="radio"]:checked + label {
+
+}
+
+.tabs__title {
+    
+    /* height: 40px;
+    width: 184px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.tabs__item, .tabs__title {
+    display: inline-block;
+}
+
+.tabs__item:checked + .tabs__title {
+    position: relative;
+    background-color: #FFFFFF;
+    top: 1px;
+    z-index: 1;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tabs__item input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs__item:checked ~ .tabs__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+.tabs__wrapper > div {
+    margin-left: 100px;
+}
+
+.tabs__wrapper span {
+    display: block;
+}
+
+.tabs__wrapper__title {
+    font: 700 30px Open Sans;
+    line-height: 41px;
+    margin: 48px 0 65px 0;
+}
+
+.tabs__wrapper__desc {
+    line-height: 21px;
+    padding-bottom: 25px;
+}
+
+.tabs__download {
+    font: 600 18px Open Sans;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 270px;
+    height: 58px;
+    border: none;
+    background: #EC7979;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; 
 }
 
 /* Awesome section */
