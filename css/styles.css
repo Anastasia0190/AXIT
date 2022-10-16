@@ -290,9 +290,6 @@ input::placeholder, textarea::placeholder {
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    border: 1px solid #C6CBCD;
-    border-bottom: none;
-    border-radius: 5px 5px 0px 0px;
     font: 400 14px Open Sans;
     line-height: 19px;
     padding: 10px 83px;
@@ -301,12 +298,15 @@ input::placeholder, textarea::placeholder {
     top: 1px;
 }
 
-.tabs__item > label:not(:first-of-type) {
-
-}
+/* .tabs__item > label:not(:first-of-type) {
+ 
+} */
 
 .tabs__item > input[type="radio"]:checked + label {
-
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+   
 }
 
 .tabs__title {
