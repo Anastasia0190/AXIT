@@ -121,7 +121,7 @@
     text-transform: uppercase;
 }
 
-.header__menu a:active {
+.header__wrapper a:active {
     background-color: #AB4949;
     text-transform: uppercase;
 }
@@ -167,6 +167,16 @@
     width: 270px;
     height: 58px;
     margin: 42px 0 185px 0;
+}
+
+.download_main:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+
+.download_main:active {
+    color: #FFFFFF;
+    background-color: #AB4949;
 }
 
 .main__form {
@@ -218,6 +228,17 @@ input::placeholder, textarea::placeholder {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.main-btn:hover {
+    background-color: #AB4949;
+    color: #FFFFFF;
+}
+
+.main-btn:active {
+    color: #FFFFFF;
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 /* Social section */
@@ -303,7 +324,6 @@ input::placeholder, textarea::placeholder {
     border: 1px solid #C6CBCD;
     border-bottom: 1px solid #FFFFFF;
     border-radius: 5px 5px 0px 0px;
-
 }
 
 
@@ -367,6 +387,17 @@ input::placeholder, textarea::placeholder {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+}
+
+.tabs__download:hover {
+    background-color: #AB4949;
+    color: #FFFFFF;
+}
+
+.tabs__download:active {
+    color: #FFFFFF;
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 /* Awesome section */
@@ -519,6 +550,16 @@ input::placeholder, textarea::placeholder {
     align-items: center;
  }
 
+ .download:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+
+.download:active {
+    color: #FFFFFF;
+    background-color: #AB4949;
+}
+
 /* Contacts section */
 
 .contacts__form__info {
@@ -561,6 +602,17 @@ input::placeholder, textarea::placeholder {
     align-items: center;
     margin-left: 50%;
     transform: translate(-50%);
+}
+
+.send:hover {
+    background-color: #AB4949;
+    color: #FFFFFF;
+}
+
+.send:active {
+    color: #FFFFFF;
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 
  /* Footer */
