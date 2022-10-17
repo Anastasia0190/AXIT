@@ -273,7 +273,7 @@ input::placeholder, textarea::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     column-gap: 30px;
     border: 1px solid #C6CBCD;
     display: none;
@@ -298,25 +298,14 @@ input::placeholder, textarea::placeholder {
     top: 1px;
 }
 
-/* .tabs__item > label:not(:first-of-type) {
- 
-} */
 
 .tabs__item > input[type="radio"]:checked + label {
     border: 1px solid #C6CBCD;
-    border-bottom: none;
+    border-bottom: 1px solid #FFFFFF;
     border-radius: 5px 5px 0px 0px;
-   
+    
 }
 
-.tabs__title {
-    
-    /* height: 40px;
-    width: 184px; 
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-}
 
 .tabs__item, .tabs__title {
     display: inline-block;
@@ -343,7 +332,7 @@ input::placeholder, textarea::placeholder {
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-
+    
 }
 
 .tabs__wrapper > div {
@@ -363,6 +352,7 @@ input::placeholder, textarea::placeholder {
 .tabs__wrapper__desc {
     line-height: 21px;
     padding-bottom: 25px;
+    max-width: 570px;
 }
 
 .tabs__download {
